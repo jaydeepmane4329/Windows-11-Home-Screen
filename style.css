@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+  
+}
+.taskBar{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 110;
+}
+.right{
+    position: absolute;
+    right: 0;
+    height: 90%;
+}
+.startMenu img{
+    border-radius: 23px;
+   
+   
+}
+.startMenu{
+    position: absolute;
+    bottom: -650px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-in;
+   
+}
+.icon{
+    position: absolute;
+    margin: 50px;
+   
+}
+.icon2 {
+ position: absolute;
+ margin: 150px 50px 50px 50px;
+}
+.icon2 img{
+    margin-left: 20px;
+}
+.icon3{
+    position: absolute;
+    margin: 250px 50px 50px 60px;
+}
